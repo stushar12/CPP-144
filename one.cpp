@@ -11,7 +11,7 @@ bool ispalindrome(string s)
 		if(s[i] != s[j]) 
 			return false; 
 	} 
-	return true; 
+	return true;
 } 
 
 int main() 
