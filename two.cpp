@@ -38,7 +38,7 @@ string concat=txt+"$"+rev;
 int n=concat.length();
     
 int lps[n]={0};
-
+    
 cout<<"Minimum characters to add in beginning of string is "<<txt.length()-computeLPSArray(concat,n,lps);
 
 }
